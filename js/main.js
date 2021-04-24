@@ -7833,6 +7833,8 @@ $(document).ready(function () {
     }
 
     $(document).ready(function () {
+        
+        
         $('h2').not('.culture-title').each(function () {
             var wordArray = $(this).text().split(' ');
             if (wordArray.length > 1) {
