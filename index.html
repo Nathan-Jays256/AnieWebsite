@@ -23,11 +23,30 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/linearicons.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.css">
 
 
 </head>
 
 <body>
+    <svg style="display: none;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- "One Acre Fund" logo -->
+        <!-- arrow -->
+        <symbol id="arrow" viewBox="416 115.2 448 438.6">
+            <path d="M856.9 342.5c-5.8-7-14.3-11-23.4-11-7.1 0-14 2.5-19.5 7.1L670.3 458.4l.3-312.7c0-16.8-13.7-30.5-30.5-30.5-16.7 0-30.4 13.6-30.5 30.4l-.3 312.6L466 338.6c-5.5-4.6-12.4-7.1-19.5-7.1-9.1 0-17.6 4-23.4 11-5.2 6.2-7.7 14.1-7 22.3.7 8.1 4.6 15.4 10.8 20.6l193.5 161.4c5.5 4.6 12.4 7 19.5 7s14.1-2.5 19.5-7.1L853 385.4c6.3-5.2 10.1-12.5 10.8-20.6.8-8.2-1.6-16.1-6.9-22.3z" />
+        </symbol>
+        <!-- Search icon -->
+        <symbol id="search" viewBox="0 0 24 24">
+            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+            <path d="M0 0h24v24H0z" fill="none" />
+        </symbol>
+        <!-- close -->
+        <symbol id="close" viewBox="0 0 28 28">
+            <path d="M28 2.8L25.2 0 14 11.2 2.8 0 0 2.8 11.2 14 0 25.2 2.8 28 14 16.8 25.2 28l2.8-2.8L16.8 14 28 2.8z" />
+        </symbol>
+
+    </svg>
     <div class="template-container  template-home-page">
 
         <header class="site-header">
@@ -36,7 +55,8 @@
 
                 <div class="logo">
                     <a class="logo-link" href="index.html">
-                        <img xlink:href="#logo" src="media/anie/logo/logo.png" class="logo-icon"/> <h2 class="head-nav">African Network for<br> Internationalization of Education</h2>
+                        <img xlink:href="#logo" src="media/anie/logo/logo.png" class="logo-icon" />
+                        <h2 class="head-nav">African Network for<br> Internationalization of Education</h2>
                     </a>
                 </div> <!-- /logo -->
 
@@ -51,10 +71,11 @@
                     <ul class="main-menu" role="menubar">
 
 
- <li class="main-menu-item" role="presentation">
+                        <li class="main-menu-item" role="presentation">
                             <a class="main-menu-link" href="what-we-do/index.html" role="menuitem" aria-haspopup="true">
                                 Home
-     </a></li>
+                            </a>
+                        </li>
                         <li class="main-menu-item" role="presentation">
                             <a class="main-menu-link" href="what-we-do/index.html" role="menuitem" aria-haspopup="true">
                                 About Us
@@ -83,7 +104,7 @@
                                 <li class="sub-menu-item" role="presentation">
                                     <a class="sub-menu-item-link" href="what-we-do/our-model/index.html" role="menuitem">
 
-                                       Board Members
+                                        Board Members
                                     </a>
                                 </li>
 
@@ -101,13 +122,13 @@
                                 <li class="sub-menu-item" role="presentation">
                                     <a class="sub-menu-item-link" href="what-we-do/countries-we-serve/index.html" role="menuitem">
 
-                                       ANIE Committees
+                                        ANIE Committees
                                     </a>
                                 </li>
                                 <li class="sub-menu-item" role="presentation">
                                     <a class="sub-menu-item-link" href="what-we-do/countries-we-serve/index.html" role="menuitem">
 
-                                       Partnerships
+                                        Partnerships
                                     </a>
                                 </li>
 
@@ -126,7 +147,9 @@
                             </a>
 
                             <span class="link-toggle">
-                                <i class="fa fa-arrow-down"></i>
+                                <svg class="link-toggle-icon" height="18px" width="18px">
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
                             </span>
 
 
@@ -172,7 +195,7 @@
 
                                 <li class="sub-menu-item" role="presentation">
                                     <a class="sub-menu-item-link" href="impact/impact-in-detail/index.html" role="menuitem">
-Policies
+                                        Policies
                                     </a>
                                 </li>
 
@@ -195,7 +218,13 @@ Policies
                         <li class="main-menu-item" role="presentation">
                             <a class="main-menu-link" href="give/index.html" role="menuitem">
                                 Membership
+
                             </a>
+                            <span class="link-toggle">
+                                <svg class="link-toggle-icon" height="18px" width="18px">
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </span>
                             <ul class="sub-menu" role="menu">
 
 
@@ -223,8 +252,14 @@ Policies
 
                         <li class="main-menu-item" role="presentation">
                             <a class="main-menu-link" href="work-with-us/index.html" role="menuitem">
-                               Resources
-                            </a><ul class="sub-menu" role="menu">
+                                Resources
+                            </a>
+                            <span class="link-toggle">
+                                <svg class="link-toggle-icon" height="18px" width="18px">
+                                    <use xlink:href="#arrow"></use>
+                                </svg>
+                            </span>
+                            <ul class="sub-menu" role="menu">
 
 
                                 <li class="sub-menu-item" role="presentation">
@@ -242,22 +277,22 @@ Policies
                                         Scholarship
                                     </a>
                                 </li>
-                            <li class="sub-menu-item" role="presentation">
+                                <li class="sub-menu-item" role="presentation">
                                     <a class="sub-menu-item-link" href="impact/country-detail/index.html" role="menuitem">
 
                                         Calls
                                     </a>
                                 </li>
-                            <li class="sub-menu-item" role="presentation">
+                                <li class="sub-menu-item" role="presentation">
                                     <a class="sub-menu-item-link" href="impact/country-detail/index.html" role="menuitem">
 
-                                       Key Documents
+                                        Key Documents
                                     </a>
                                 </li>
-                            <li class="sub-menu-item" role="presentation">
+                                <li class="sub-menu-item" role="presentation">
                                     <a class="sub-menu-item-link" href="impact/country-detail/index.html" role="menuitem">
 
-                                       Newsletter
+                                        Newsletter
                                     </a>
                                 </li>
                             </ul>
@@ -267,7 +302,7 @@ Policies
                         </li>
                         <li class="main-menu-item" role="presentation">
                             <a class="main-menu-link" href="work-with-us/index.html" role="menuitem">
-                               Contact
+                                Contact
                             </a>
                         </li>
                     </ul>
@@ -276,8 +311,12 @@ Policies
                 <ul class="search">
                     <li class="search-item">
                         <a class="search-link" href="#search__input">
-                            <i xlink:href="#search" class="fa fa-search search-icon" height="42px" width="42px"></i>
-                            <i xlink:href="#search" class="fa fa-close search-icon-close" height="28px" width="28px" xlink:href="#close"></i>
+                            <svg class="search-icon" height="42px" width="42px">
+                                <use xlink:href="#search"></use>
+                            </svg>
+                            <svg class="search-icon-close" height="28px" width="28px">
+                                <use xlink:href="#close"></use>
+                            </svg>
                         </a> <!-- /search-link -->
                     </li> <!-- /search-item -->
                 </ul> <!-- /search -->
@@ -291,35 +330,81 @@ Policies
             <form class="search-overlay-container" action="" method="get" role="search">
                 <input type="search" class="input-large search-overlay-input" name="query" id="search__input" placeholder="Enter search term" />
                 <button class="search-overlay-button btn-icon">
-                    <i xlink:href="#search" class="fa fa-search search-icon"></i>
+                    <svg class="search-icon" height="15px" width="15px">
+                        <use xlink:href="#search"></use>
+                    </svg>
                 </button>
             </form>
 
-        </div> <!-- /search-overlay -->      
+        </div> <!-- /search-overlay -->
+
+
+
+
+
 
         <div class="site-content">
+            <!-- slider_area_start -->
+            <div class="slider_area">
+                <div class="slider_active owl-carousel">
+
+                    <div class="single_slider  d-flex align-items-center overlay">
+                        <div class="hero-container" style="background-image: url(./media/anie/bg.jpeg);">
+                            <div class="overlay"></div>
+                            <a href="#content" class="hero-next js-slowscroll">
+                                <i class="fa fa-chevron-down chev"></i>
+                            </a>
+
+                            <div class="hero-content">
+                                <h1 class="hero-heading text-uppercase">
+                                    Promoting internationalization<br> of Education
+                                    In Africa
+                                </h1>
+                            </div> <!-- hero-content -->
+
+                        </div>
+                    </div>
+                    <div class="single_slider  d-flex align-items-center overlay">
+                        <div class="hero-container" style="background-image: url(./media/anie/bg.jpeg);">
+                            <div class="overlay"></div>
+                            <a href="#content" class="hero-next js-slowscroll">
+                                <i class="fa fa-chevron-down chev"></i>
+                            </a>
+
+                            <div class="hero-content">
+                                <h1 class="hero-heading text-uppercase">
+                                    Promoting internationalization<br> of Education
+                                    In Africa
+                                </h1>
+                            </div> <!-- hero-content -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slider_area_end -->
 
 
 
-            <div class="hero">
+            <!--<div class="hero">
 
 
-                <div class="hero-container" style="background-image: url(./media/anie/bg.jpeg);">              
-<div class="overlay"></div>
+                <div class="hero-container" style="background-image: url(./media/anie/bg.jpeg);">
+                    <div class="overlay"></div>
                     <a href="#content" class="hero-next js-slowscroll">
-                       <i class="fa fa-chevron-down chev"></i>
+                        <i class="fa fa-chevron-down chev"></i>
                     </a>
 
                     <div class="hero-content">
-<h1 class="hero-heading text-uppercase">
-                        Promoting internationalization<br> of Education 
-                        In Africa
-                    </h1>
-                    </div> <!-- hero-content -->
+                        <h1 class="hero-heading text-uppercase">
+                            Promoting internationalization<br> of Education
+                            In Africa
+                        </h1>
+                    </div> 
+                </div>  -->
 
-                </div> <!-- /hero-container -->
 
-            </div> <!-- /hero-container -->
+
 
             <div class="featured-cards" id="content">
 
@@ -333,8 +418,9 @@ Policies
 
                         <a class="featured-cards-item-link bgimage lazy" href="#" data-src="media/images/Staff_Farmer_Training_One_Ac.2e16d0ba.fill-1200x800-c100.jpg">
                             <div class="featured-cards-item-content">
-                                <h2 class="featured-cards-item-heading">What We Do</h2>
-                                <p class="featured-cards-item-description">One Acre Fund supplies smallholder farmers with the financing and training they need to grow more food and earn more money.</p>
+                                <h2 class="featured-cards-item-heading">Who We Are</h2>
+                                <p class="featured-cards-item-description">The African Network for Internationalization of Education (ANIE) is an independent, non-profit making, non-governmental African network committed.......</p>
+                               
                             </div>
                         </a>
                     </div>
@@ -347,9 +433,8 @@ Policies
 
                         <a class="featured-cards-item-link bgimage lazy" href="#" data-src="media/images/HET_0178.2e16d0ba.fill-1200x800-c100.jpg">
                             <div class="featured-cards-item-content">
-                                <h2 class="featured-cards-item-heading">Our Impact</h2>
-                                <p class="featured-cards-item-description">Impact is our North Star. In everything that we do, we seek to generate positive impact in the lives of farmers.</p>
-                            </div>
+                                <h2 class="featured-cards-item-heading">Our Aim</h2>
+                                <p class="featured-cards-item-description">To develop and strengthen capacity for research, advocacy and professional development in the international..... </p></div>
                         </a>
                     </div>
 
@@ -359,7 +444,7 @@ Policies
 
                     <div class="featured-cards-item">
 
-                        <a class="featured-cards-item-link bgimage lazy" href="#" data-src="media/images/One_Acre_Fund_VGM_Header.2e16d0ba.fill-1200x800-c100.jpg">
+                        <a class="featured-cards-item-link bgimage lazy" href="#" src="media/images/One_Acre_Fund_VGM_Header.2e16d0ba.fill-1200x800-c100.jpg" data-src="media/images/One_Acre_Fund_VGM_Header.2e16d0ba.fill-1200x800-c100.jpg">
                             <div class="featured-cards-item-content">
                                 <h2 class="featured-cards-item-heading">Work With Us</h2>
                                 <p class="featured-cards-item-description">Join a talented team doing work that matters.</p>
@@ -407,7 +492,7 @@ Policies
                 <div class="stories">
 
                     <header class="main-header">
-                        <h2 class="tit-main heading-section"><em>LATEST</em> BLOGS</h2>
+                        <h2 class="tit-main heading-section"><em class="em">LATEST</em> BLOGS</h2>
                     </header>
 
                     <div class="stories-container">
@@ -515,7 +600,9 @@ Policies
 
                 </div> <!-- /stories -->
 
-            </div> <!-- /content-body -->
+            </div> 
+            <!-- /content-body -->
+            
 
 
         </div>
@@ -572,7 +659,7 @@ Policies
 
                                 <li class="sitemap-item-child">
                                     <a class="sitemap-link-child" href="what-we-do/how-we-grow/index.html">
-                                       Conferences
+                                        Conferences
                                     </a>
                                 </li>
 
@@ -580,7 +667,7 @@ Policies
 
                                 <li class="sitemap-item-child">
                                     <a class="sitemap-link-child" href="insights-library/index.html">
-                                       Capacity Building
+                                        Capacity Building
                                     </a>
                                 </li>
 
@@ -603,7 +690,7 @@ Policies
 
                                 <li class="sitemap-item-child">
                                     <a class="sitemap-link-child" href="impact/index.html">
-                                       Our History
+                                        Our History
                                     </a>
                                 </li>
 
@@ -697,7 +784,7 @@ Policies
                                 <li class="sitemap-item-child footer-social-item">
                                     <a data-social-network="Twitter" href="https://twitter.com/oneacrefund" class="footer-social-link footer-social-item-link">
                                         <span class="footer-social-label">Twitter</span>
-                                       <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li class="sitemap-item-child footer-social-item">
@@ -743,7 +830,7 @@ Policies
 
     </div> <!-- /template-container -->
 
-    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="js/vendor/headroom.min.js"></script>
     <script type="text/javascript" src="js/vendor/jQuery.headroom.min.js"></script>
     <script type="text/javascript" src="js/vendor/headroom-freeze-unfreeze-methods.min.js"></script>
@@ -753,7 +840,10 @@ Policies
     <script type="text/javascript" src="js/vendor/odometer.min.js"></script>
     <script type="text/javascript" src="js/vendor/slick.min.js"></script>
     <script type="text/javascript" src="js/vendor/oaf-donate-prompt.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/vendor/main.js"></script>
+    <script type="text/javascript" src="js/vendor/owl.carousel.min.js"></script>
 
 
 
