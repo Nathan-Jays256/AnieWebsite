@@ -7453,14 +7453,14 @@ $(document).ready(function () {
     function accordion() {
 
         // Check for items already open and remove open class
-        $('.additional-info__item__heading').not(this).parent().removeClass('open');
+        $('.additional-info-item-heading').not(this).parent().removeClass('open');
 
         // Toggle class to parent
         $(this).parent().toggleClass('open');
     }
 
     // Run Accordion functions
-    $('.js-accordion .additional-info__item__heading').on('click', accordion);
+    $('.js-accordion .additional-info-item-heading').on('click', accordion);
 
     // tabs
     function tabs($tab) {
