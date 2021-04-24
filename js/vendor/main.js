@@ -27,33 +27,6 @@ animateIn: 'fadeIn',
       }
   }
 });
-    // review-active
-$('.post_active').owlCarousel({
-  loop:true,
-  margin:0,
-items:1,
-autoplay:true,
-navText:['<i class="fa fa-chevron"></i>','<i class="fa fa-chevron"></i>'],
-  nav:true,
-dots:true,
-autoplayHoverPause: true,
-autoplaySpeed: 800,
-animateOut: 'fadeOut',
-animateIn: 'fadeIn',
-  responsive:{
-      0:{
-          items:1,
-          nav:false,
-      },
-      767:{
-          items:1,
-          nav:false,
-      },
-      992:{
-          items:1
-      }
-  }
-});
 
 
 
