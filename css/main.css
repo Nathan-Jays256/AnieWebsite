@@ -3665,7 +3665,7 @@ iframe {
 }
 
 .site-content {
-  /* margin-top: 81px; */
+  margin-top: 81px;
 }
 
 @media screen and (min-width: 1025px) {
@@ -5861,9 +5861,22 @@ $MAIN MENU
   max-width: 100%;
   margin-bottom: 28px;
 }
+.info-item-sm {
+  -webkit-flex-basis: 100%;
+  -moz-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  margin-bottom: 28px;
+  padding: 21px;
+}
 
 @media screen and (min-width: 1025px) {
   .info-item {
+    padding-right: 21px;
+    padding-left: 21px;
+  }
+    .info-item-sm {
     padding-right: 21px;
     padding-left: 21px;
   }
@@ -5876,6 +5889,14 @@ $MAIN MENU
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     max-width: 50%;
+  }  .info-item-sm {
+    padding: 12px;
+    -webkit-flex-basis: 50%;
+    -moz-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    margin: auto;
+    max-width: 49%;
   }
 }
 
@@ -5886,6 +5907,14 @@ $MAIN MENU
     -ms-flex-preferred-size: 33.33333%;
     flex-basis: 33.33333%;
     max-width: 33.33333%;
+  }  .info-item-sm {
+    -webkit-flex-basis: 33.33333%;
+    -moz-flex-basis: 33.33333%;
+    -ms-flex-preferred-size: 33.33333%;
+    flex-basis: 33.33333%;
+    max-width: 31.33333%;
+    margin: auto;
+    padding-left: 12px;
   }
 }
 
@@ -5896,6 +5925,12 @@ $MAIN MENU
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%;
     max-width: 25%;
+  }.info-item-sm {
+    -webkit-flex-basis: 25%;
+    -moz-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    max-width: 19%;
   }
 }
 
@@ -5924,6 +5959,7 @@ $MAIN MENU
   margin: 0 0 14px;
   font-size: 16px;
   color: white;
+  text-align: left;
 }
 
 .info-item__btn {
@@ -5957,8 +5993,8 @@ $MAIN MENU
 
 @media screen and (min-width: 769px) {
   .info-item-heading {
-    font-size: 18px;
-    text-align: left;
+    font-size: 16px;
+    text-align: center;
     padding-left: 5px;
   }
 }
@@ -14252,5 +14288,12 @@ h2.tit-main.heading-section {
 }
 ul#career-menu {
     background: white;
+}
+span.font-sm {
+    font-size: 12px;
+    font-weight: 600;
+}
+.font-weight-bold{
+    font-weight: bold;
 }
 /* ABOUT US PART CSS*/

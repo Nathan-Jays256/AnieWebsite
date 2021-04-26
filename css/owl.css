@@ -468,7 +468,7 @@
 @media (min-width: 320px) and (max-width: 425px){
 
     .site-header-nav {
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     pointer-events: none;
