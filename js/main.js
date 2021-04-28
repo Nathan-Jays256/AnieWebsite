@@ -7320,7 +7320,7 @@ $(document).ready(function () {
     $(document).on('click', dropdownHide);
 
     // Filter toggle
-    var $filterGroup = $('.filters__group');
+    var $filterGroup = $('.filters-group');
 
     function filterToggle() {
         if (!$(this).hasClass(activeClass)) {
@@ -7336,7 +7336,7 @@ $(document).ready(function () {
         var outsideClickListener = function outsideClickListener(event) {
             if (!$(event.target).closest(selector).length) {
                 if ($(selector).is(':visible')) {
-                    $('.filters__group').removeClass(activeClass);
+                    $('.filters-group').removeClass(activeClass);
                 }
             }
         };

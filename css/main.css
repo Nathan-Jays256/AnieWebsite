@@ -2315,6 +2315,10 @@ em.em {
     background-image: url("../images/bg_texture.252aade85c21.jpg");
     overflow: auto;
 }
+.site-content__body {
+    padding: 0 14px;
+    overflow: hidden;
+}
 
 .introduction--standard::after {
     content: "";
@@ -5481,7 +5485,7 @@ sup:last-of-type {
         flex-basis: 25%;
         max-width: 19%;
     }
-        .info-item-sm {
+        .info-item-smm {
         flex-basis: 25%;
         max-width:10% !important
     }
@@ -13609,7 +13613,15 @@ span.font-sm {
     margin-bottom: 1px !important;
 }
 h5.text-banner-heading.text-center {
-    font-size: 32px;
+    font-size: 20px;
     text-transform: uppercase;
     color: #00923f;
+}
+a.footer-social-link.footer-social-item-link .fa {
+    margin-top: 7px;
+}
+
+.body-fill{
+  background-color: rgb(240, 236, 225);
+    background-image: url("../images/bg_texture.252aade85c21.jpg"); 
 }
