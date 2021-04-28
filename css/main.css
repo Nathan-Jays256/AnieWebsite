@@ -906,7 +906,7 @@ textarea {
 .text-banner-container,
 .hero-split__container,
 .logo-showcase__container,
-.cards__container,
+.cards-container,
 .search-form__container,
 .featured-cards-container,
 .annual-report-opening-letter__container,
@@ -921,7 +921,7 @@ textarea {
     flex: 0 1 auto;
 }
 
-.col__full,
+.col-full,
 .col__primary,
 .col__secondary,
 .col__three-quarters,
@@ -948,7 +948,7 @@ textarea {
 .text-banner-content,
 .hero-split__item,
 .logo-showcase__item,
-.cards__item,
+.cards-item,
 .featured-cards-item,
 .annual-report-highlights__item {
     -webkit-box-flex: 0;
@@ -964,7 +964,7 @@ textarea {
 
 @media screen and (min-width: 481px) {
 
-    .col__full,
+    .col-full,
     .col__primary,
     .col__secondary,
     .col__three-quarters,
@@ -988,7 +988,7 @@ textarea {
     .text-banner-content,
     .hero-split__item,
     .logo-showcase__item,
-    .cards__item,
+    .cards-item,
     .featured-cards-item,
     .annual-report-highlights__item {
         -webkit-box-flex: 0;
@@ -1029,7 +1029,7 @@ textarea {
     .text-banner-content,
     .hero-split__item,
     .logo-showcase__item,
-    .cards__item,
+    .cards-item,
     .featured-cards-item,
     .annual-report-highlights__item {
         -webkit-box-flex: 0;
@@ -1072,7 +1072,7 @@ textarea {
     .text-banner-content,
     .hero-split__item,
     .logo-showcase__item,
-    .cards__item,
+    .cards-item,
     .featured-cards-item,
     .annual-report-highlights__item {
         -webkit-box-flex: 0;
@@ -1168,7 +1168,7 @@ textarea {
     margin-right: 0px !important;
 }
 
-.col__full,
+.col-full,
 .col__primary,
 .col__secondary,
 .col__three-quarters,
@@ -1178,7 +1178,7 @@ textarea {
     margin-bottom: 28px;
 }
 
-.col__full {
+.col-full {
     flex-basis: 100%;
     max-width: 100%;
     padding-left: 0px !important;
@@ -1186,14 +1186,14 @@ textarea {
 }
 
 @media screen and (min-width: 1025px) {
-    .col__full {
+    .col-full {
         padding-right: 21px;
         padding-left: 21px;
     }
 }
 
 @media screen and (min-width: 481px) {
-    .col__full {
+    .col-full {
         flex-basis: 100%;
         max-width: 100%;
     }
@@ -2498,30 +2498,30 @@ input[type="submit"]:hover,
     text-transform: uppercase;
 }
 
-.pagination__previous .pagination__icon {
+.pagination-previous .pagination-icon {
     transform: rotate(90deg);
 }
 
-.pagination__next .pagination__icon {
+.pagination-next .pagination-icon {
     transform: rotate(270deg);
 }
 
-.pagination__icon {
-    margin: 3px 0px 0px 7px;
+.pagination-icon {
+    margin: -3px 0px 0px 7px;
     fill: rgb(206, 72, 45);
     width: 14px;
     height: 14px;
 }
 
-.pagination__link {
+.pagination-link {
     display: block;
-    padding: 14px;
+    padding: 7px;
     border: 2px solid rgb(206, 72, 45);
     background-color: transparent;
     transition: background-color 250ms ease 0s;
 }
 
-.pagination__link:hover {
+.pagination-link:hover {
     color: rgb(43, 127, 104);
     background-color: rgb(255, 255, 255);
 }
@@ -8970,7 +8970,7 @@ sup:last-of-type {
     margin: 0px auto;
 }
 
-.cards__container {
+.cards-container {
     -webkit-box-direction: normal;
     -webkit-box-orient: horizontal;
     flex-direction: row;
@@ -8980,59 +8980,59 @@ sup:last-of-type {
     padding-right: 0px !important;
 }
 
-[class*="no-gutter"] > .cards__container {
+[class*="no-gutter"] > .cards-container {
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
 
-.cards__container .cards__container {
+.cards-container .cards-container {
     margin-left: -14px;
     margin-right: -14px;
 }
 
 @media screen and (min-width: 481px) {
-    .cards__container .cards__container {
+    .cards-container .cards-container {
         margin-left: -14px;
         margin-right: -14px;
     }
 }
 
 @media screen and (min-width: 769px) {
-    .cards__container .cards__container {
+    .cards-container .cards-container {
         margin-left: -14px;
         margin-right: -14px;
     }
 }
 
 @media screen and (min-width: 1025px) {
-    .cards__container .cards__container {
+    .cards-container .cards-container {
         margin-left: -21px;
         margin-right: -21px;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .cards__container .cards__container {
+    .cards-container .cards-container {
         margin-left: -14px;
         margin-right: -14px;
     }
 }
 
 @media screen and (min-width: 1150px) {
-    .cards__container .cards__container {
+    .cards-container .cards-container {
         margin-left: -14px;
         margin-right: -14px;
     }
 }
 
 @media screen and (min-width: 1228px) {
-    .cards__container .cards__container {
+    .cards-container .cards-container {
         margin-left: -14px;
         margin-right: -14px;
     }
 }
 
-.cards__item {
+.cards-item {
     flex-basis: 100%;
     max-width: 100%;
     position: relative;
@@ -9040,44 +9040,44 @@ sup:last-of-type {
 }
 
 @media screen and (min-width: 1025px) {
-    .cards__item {
+    .cards-item {
         padding-right: 21px;
         padding-left: 21px;
     }
 }
 
 @media screen and (min-width: 481px) {
-    .cards__item {
+    .cards-item {
         flex-basis: 50%;
         max-width: 50%;
     }
 }
 
 @media screen and (min-width: 769px) {
-    .cards__item {
+    .cards-item {
         flex-basis: 33.3333%;
         max-width: 33.3333%;
     }
 }
 
 @media screen and (min-width: 1025px) {
-    .cards__item {
+    .cards-item {
         flex-basis: 25%;
         max-width: 25%;
     }
 }
 
-.cards__item__heading {
+.cards-item-heading {
     font-size: 18px;
     margin: 0px;
 }
 
-.cards__item__description {
+.cards-item__description {
     margin: 0px;
     font-size: 16px;
 }
 
-.cards__item__type {
+.cards-item-type {
     position: relative;
     text-transform: uppercase;
     font-size: 12px;
@@ -9088,37 +9088,37 @@ sup:last-of-type {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.cards__item__type--download,
-.cards__item__type--page {
+.cards-item-type-download,
+.cards-item-type--page {
     position: absolute;
     z-index: 1;
     background: rgb(255, 255, 255);
     left: 0px;
     top: 7px;
-    fill: rgba(0, 0, 0, 0.5);
+    fill: rgb(206 72 45);
 }
 
-.cards__item__type__label {
+.cards-item-type-label {
     display: inline-block;
     transform: translate3d(-200%, 0px, 0px);
     transition: transform 0.2s ease 0s;
 }
 
-.cards__item__link {
+.cards-item-link {
     display: block;
     background-color: rgb(255, 255, 255);
 }
 
-.cards__item__link:hover .cards__item__type__label {
+.cards-item-link:hover .cards-item-type-label {
     transform: translate3d(0%, 0px, 0px);
 }
 
-.cards__item__image {
+.cards-item-image {
     width: 100%;
     height: auto;
 }
 
-.cards__item__content {
+.cards-item-content {
     padding: 14px 28px;
 }
 
@@ -11551,47 +11551,47 @@ sup:last-of-type {
     padding: 3rem 0px;
 }
 
-.related-cards__items {
+.related-cards-items {
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (min-width: 769px) {
-    .related-cards__items {
+    .related-cards-items {
         flex-direction: row;
         margin-left: -2.5rem;
     }
 }
 
-.related-cards__items__item {
+.related-cards-items__item {
     width: 100%;
     margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 769px) {
-    .related-cards__items__item {
+    .related-cards-items__item {
         width: calc(33.3333%);
         margin-left: 2.5rem;
     }
 }
 
-.related-cards__items__item:focus .related-cards__items__item__title,
-.related-cards__items__item:hover .related-cards__items__item__title {
+.related-cards-items__item:focus .related-cards-items__item__title,
+.related-cards-items__item:hover .related-cards-items__item__title {
     color: rgb(206, 72, 45);
 }
 
-.related-cards__items__item__img {
+.related-cards-items__item__img {
     width: 100%;
     margin-bottom: 1rem;
 }
 
-.related-cards__items__item__img img {
+.related-cards-items__item__img img {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.related-cards__items__item__title {
+.related-cards-items__item__title {
     font-size: 1.3125rem;
     line-height: 1.3;
     color: rgb(57, 57, 57);
@@ -13624,4 +13624,8 @@ a.footer-social-link.footer-social-item-link .fa {
 .body-fill{
   background-color: rgb(240, 236, 225);
     background-image: url("../images/bg_texture.252aade85c21.jpg"); 
+}
+h2.cards-item-heading {
+    color: gray;
+    font-size: initial;
 }
