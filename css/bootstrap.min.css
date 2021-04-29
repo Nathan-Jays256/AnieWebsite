@@ -5076,8 +5076,8 @@ input[type=submit].btn-block {
     padding: .75rem 1rem;
     margin-bottom: 1rem;
     list-style: none;
-    background-color: #e9ecef;
-    border-radius: .25rem
+    /* background-color: #e9ecef; */
+    border-radius: .25rem;
 }
 
 .breadcrumb-item + .breadcrumb-item {
