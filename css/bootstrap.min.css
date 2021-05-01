@@ -90,7 +90,7 @@ hr {
 .view-footer {
     width: 100%;
     float: right;
-    padding-top: 14px;
+    margin-top: -52px;
 }
 .viewmore{
     float: right;
@@ -100,6 +100,8 @@ hr {
     padding: 15px 10px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: -59px !important;
+    top: -22;
 }
 .viewmore a:after {
     font-family: 'FontAwesome';
