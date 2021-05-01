@@ -335,7 +335,9 @@ a {
 .section-gap {
     padding: 80px 0px;
 }
-
+.section-gap-top {
+    padding: 80px 0px 0px 0px;
+}
 a:active,
 a:hover {
     outline-width: 0px;
@@ -9518,7 +9520,7 @@ sup:last-of-type {
 .featured-cards {
     background-color: rgb(240, 236, 225);
     background-image: url("../images/bg_texture.252aade85c21.jpg");
-    padding: 100px 0px;
+    /* padding: 100px 0px; */
 }
 
 .featured-cards-container {
@@ -13520,6 +13522,10 @@ i.fa.fa-search.search-icon {
         font-size: 13px;
         float: revert;
         padding-top: 10px;
+    }
+    img.pic-news{
+        height:auto;
+        width:auto;
     }
 
     .site-header .logo {

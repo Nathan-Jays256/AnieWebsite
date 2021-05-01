@@ -120,6 +120,7 @@ img.center {
 }
 .pic-pub{
         height: 321px;
+        /* width: 203px; */
 }
 
 h1,
@@ -641,7 +642,7 @@ pre code {
 
 @media (min-width:1200px) {
     .container {
-        max-width: 1140px
+        max-width: 1300px;
     }
 }
 
@@ -8448,10 +8449,16 @@ button.bg-dark:hover {
 .mx-auto {
     margin-right: auto !important
 }
+.pic-news{
+    height: 221px;
+}
 
 .mb-auto,
 .my-auto {
     margin-bottom: auto !important
+}
+.p-sm{
+    font-size: 16px;
 }
 
 .ml-auto,
@@ -8511,7 +8518,10 @@ button.bg-dark:hover {
     .m-sm-2 {
         margin: .5rem !important
     }
-
+@media screen and (min-width: 1300px)
+.container {
+    max-width: 1300px !important;
+}
     .mt-sm-2,
     .my-sm-2 {
         margin-top: .5rem !important
