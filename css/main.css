@@ -1527,7 +1527,7 @@ body {
     color: rgb(34, 34, 34);
     line-height: 1.55;
     font-family: ff-tisa-web-pro, Georgia, Times, "Times New Roman", serif;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0px;
     padding: 0px;
     -webkit-font-smoothing: antialiased;
@@ -7511,7 +7511,7 @@ sup:last-of-type {
 .heading {
     font-size: 18px;
     line-height: 1.5;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 7px;
     color: rgb(0, 0, 0);
 }
