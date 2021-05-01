@@ -87,6 +87,39 @@ hr {
     overflow: visible
 }
 
+.view-footer {
+    width: 100%;
+    float: right;
+    padding-top: 14px;
+}
+.viewmore{
+    float: right;
+}
+.viewmore a {
+    font-size: 14px;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.viewmore a:after {
+    font-family: 'FontAwesome';
+    color: #c94916;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 0 15px;
+    content: "\f105";
+    transition: 0.5s ease-in-out;
+}
+img.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.pic-pub{
+        height: 321px;
+}
+
 h1,
 h2,
 h3,

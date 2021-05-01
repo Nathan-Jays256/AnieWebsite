@@ -7467,6 +7467,7 @@ sup:last-of-type {
 @media screen and (min-width: 769px) {
     .Cont {
         margin-bottom: 42px;
+        margin-bottom: 1px;
     }
 }
 
