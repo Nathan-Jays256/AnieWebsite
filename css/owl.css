@@ -475,7 +475,7 @@
     z-index: 12;
 }
     .owl-carousel .owl-item{
-    min-height: 373px !important;
+    min-height: 529px !important;
 }
 }
 @media (min-width: 426px) and (max-width: 1024px){

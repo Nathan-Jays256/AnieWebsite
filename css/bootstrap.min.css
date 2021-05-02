@@ -116,7 +116,7 @@ img.center {
     margin-left: auto;
     margin-right: auto;
     display: block;
-
+    box-shadow: rgb(0 0 0 / 30%) 0px 2px 5px 0px;
 }
 .pic-pub{
         height: 321px;
@@ -642,7 +642,7 @@ pre code {
 
 @media (min-width:1200px) {
     .container {
-        max-width: 1150px;
+        max-width: 1250px;
     }
 }
 
