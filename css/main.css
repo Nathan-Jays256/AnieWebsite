@@ -2222,7 +2222,7 @@ h4 {
 
     .col__secondary h2,
     .col__quarter h2 {
-        font-size: 13px;
+        font-size: 17px;
     }
 }
 
@@ -2303,7 +2303,7 @@ em.em {
 .introduction {
     font-size: 18px;
     line-height: 1.5;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 @media screen and (min-width: 769px) {
@@ -5740,7 +5740,7 @@ sup:last-of-type {
     position: relative;
     display: block;
     overflow: hidden;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Open Sans";
     font-weight: 500;
     padding: 10px 7px;
@@ -7655,7 +7655,7 @@ sup:last-of-type {
 
 @media screen and (min-width: 769px) {
     .text-banner {
-        margin-top: 42px;
+        margin-top: 89px;
     }
 }
 
@@ -7765,8 +7765,8 @@ sup:last-of-type {
 
 @media screen and (min-width: 1025px) {
     .text-banner-content {
-        flex-basis: 75%;
-        max-width: 75%;
+        flex-basis: 93%;
+        max-width: 100%;
     }
 }
 
@@ -13514,6 +13514,9 @@ i.fa.fa-search.search-icon {
         float: revert;
         padding-top: 24px;
     }
+    .team-member {
+    padding: 1px !important;
+}
 
     .site-header .logo {
         width: 100%;
@@ -13687,7 +13690,7 @@ h2.cards-item-heading {
 .team-member {
     padding: 25px;
     margin-top: 0px;
-    border: 1px solid rgb(235, 235, 235);
+    /* border: 1px solid rgb(235, 235, 235); */
     text-align: center;
     transition: all 0.35s ease 0s;
 }
@@ -13698,12 +13701,12 @@ h2.cards-item-heading {
 
 .list-committee {
     text-align: left;
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 .title {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 550;
     color: black;
 }
 
@@ -13832,6 +13835,7 @@ h3.text-left.color-primary.text-uppercase {
     color: white !important;
 }
 }
+
 .p-du{
     color: gray;
     font-size: 12px;
@@ -13840,4 +13844,12 @@ h3.text-left.color-primary.text-uppercase {
 }
 .news-more{
     margin-top: -5px !important;
+}
+
+p.title.p-title {
+    margin-bottom: .6rem;
+    text-transform: capitalize
+}
+a{
+    cursor: pointer;
 }
