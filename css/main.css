@@ -13799,15 +13799,14 @@ p.subtitle {
     padding: 5px 5px 5px 15px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 2px 5px 0px;
 }
-.bg-white-no{
+
+.bg-white-no {
     background: white !important;
 }
 
 .img-sm {
     width: 100%;
 }
-
-
 
 section.pb-4 {
     background: rgba(245, 245, 220, 0.31);
@@ -14045,7 +14044,6 @@ form::after {
     width: 900px;
 }
 
-
 #content form {
     margin: 0px 20px;
     position: relative;
@@ -14152,7 +14150,6 @@ form::after {
 
 .news-list {
     font-family: Montserrat, sans-serif;
-    /* padding: 20px; */
 }
 
 .news-list .news-item {
@@ -14172,9 +14169,9 @@ form::after {
 
 .news-list .news-item .news-content {
     position: relative;
-    width: 60% !important;
-    padding: 2.5em;
+    padding: 3em;
     transition: color 0.2s ease 0s;
+    width: 60% !important;
 }
 
 .news-list .news-item .news-content .news-title {
@@ -14190,11 +14187,9 @@ form::after {
 .news-list .news-item .news-content .news-button {
     position: absolute;
     bottom: -100%;
-    right: 1em;
     background: white;
     padding: 0.5em;
     font-size: 1em;
-    float: right;
     z-index: -1;
     transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s;
     border-radius: 4px;
@@ -14211,7 +14206,7 @@ form::after {
     position: absolute;
     top: 0px;
     right: 0px;
-    background: linear-gradient(20deg, rgb(215, 60, 9), rgb(250, 184, 2));
+    background: linear-gradient(20deg, rgb(3 37 18), rgb(2 250 21));
     height: 100%;
     width: 0%;
     transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1) 0s;
@@ -14227,7 +14222,7 @@ form::after {
 }
 
 .news-list .news-item:hover .news-content {
-    color: rgb(0, 0, 0);
+    color: #ffffff;
 }
 
 .news-list .news-item:hover .news-content::after {
