@@ -347,7 +347,9 @@ input[type=time] {
 
 textarea {
     overflow: auto;
-    resize: vertical
+    resize: vertical;
+    padding: 14px;
+    height: 170px;
 }
 
 fieldset {
@@ -643,6 +645,9 @@ pre code {
 @media (min-width:1200px) {
     .container {
         max-width: 1250px;
+    }
+    .container-sm{
+        max-width: 1050px !important;
     }
 }
 
