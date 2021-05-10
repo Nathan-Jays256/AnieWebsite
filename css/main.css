@@ -9160,7 +9160,7 @@ sup:last-of-type {
 .cards-item-type--page {
     position: absolute;
     z-index: 1;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     left: 0px;
     top: 7px;
     fill: rgb(206, 72, 45);
@@ -9188,6 +9188,8 @@ sup:last-of-type {
 
 .cards-item-content {
     padding: 14px 28px;
+    background: url("../images/bg_texture.252aade85c21.jpg");
+    box-shadow: rgb(0 0 0 / 2%) 0px 2px 4px 3px;
 }
 
 .donate-form {
