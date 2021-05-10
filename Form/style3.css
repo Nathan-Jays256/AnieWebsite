@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/*
+ * Twitterfeed component
+ *
+ * All markup is build by javascript.
+ * It works by fetching a twitter widget, and rebuilding
+ * it in plan js.
+*/
+/*
+ * 1. List
+ * 2- tweet
+*/
+.twitterfeed {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.twitterfeed > li {
+  list-style-type: none;
+  background-color: #e1eff5;
+}
+.twitterfeed > li:nth-child(2n) {
+  background-color: #c2deea;
+}
+
+.twitterfeed > .tweet {
+  padding: 15px 35px 35px 15px;
+}
+
+.tweet__user [data-scribe="element:avatar"] {
+  display: none;
+}
+.tweet__user [data-scribe="element:name"] {
+  display: none;
+}
+.tweet__user [data-scribe="element:verified_badge"] {
+  display: none;
+}
+
+.tweet__content {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.tweet__content a {
+  word-break: break-all;
+  word-wrap: break-word;
+  text-decoration: none;
+  color: #0798D1;
+}
+
+.tweet__footer {
+  margin: 0;
+  padding: 0;
+}
+.tweet__footer li {
+  display: inline-block;
+  list-style-type: none;
+}
+.tweet__footer li > * {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+.tweet__footer li > *:hover {
+  text-decoration: underline;
+}
+.tweet__footer li:not(:last-of-type):after {
+  content: "•";
+  margin: 0 3px;
+}
