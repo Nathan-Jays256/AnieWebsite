@@ -114,9 +114,8 @@ hr {
 }
 img.center {
     margin-left: auto;
-    margin-right: auto;
+    /* margin-right: auto; */
     display: block;
-
 }
 .pic-pub{
         height: 321px;
@@ -8450,7 +8449,7 @@ button.bg-dark:hover {
     margin-right: auto !important
 }
 .pic-news{
-    height: 221px;
+    height: 258px;
 }
 
 .mb-auto,
