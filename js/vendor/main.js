@@ -1,7 +1,10 @@
 (function ($) {
     "use strict";
 
+
     $(document).ready(function () {
+
+        
         
         var checkB = $("#checkB");
         var checkM = $("#checkM");
@@ -191,7 +194,5 @@
 
 
     });
-
-
 
 })(jQuery);

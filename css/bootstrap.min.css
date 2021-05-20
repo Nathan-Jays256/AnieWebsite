@@ -116,7 +116,7 @@ img.center {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    box-shadow: rgb(0 0 0 / 30%) 0px 2px 5px 0px;
+
 }
 .pic-pub{
         height: 321px;
@@ -211,7 +211,7 @@ sup {
 }
 
 a {
-    /* color: #00923f; */
+    color: #00923f;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -347,9 +347,7 @@ input[type=time] {
 
 textarea {
     overflow: auto;
-    resize: vertical;
-    padding: 14px;
-    height: 170px;
+    resize: vertical
 }
 
 fieldset {
@@ -645,9 +643,6 @@ pre code {
 @media (min-width:1200px) {
     .container {
         max-width: 1250px;
-    }
-    .container-sm{
-        max-width: 1050px !important;
     }
 }
 
@@ -5543,11 +5538,11 @@ input[type=submit].btn-block {
 .progress {
     display: -ms-flexbox;
     display: flex;
-    height: rem;
+    height: 1rem;
     overflow: hidden;
     font-size: .75rem;
-    background-color: rgb(0 146 63);
-    border-radius: .25rem;
+    background-color: #e9ecef;
+    border-radius: .25rem
 }
 
 .progress-bar {
