@@ -14798,15 +14798,15 @@ ul.job-list > li.job-preview:hover {
 }
 
 .title {
-  color: rgba(255, 255, 255, 0.85);
-  font-family: "Raleway", "Lato", "Helvetica Neue", Arial, sans-serif;
-  font-size: 10vw;
+  color: rgb(57 57 57);
+  font-family: 'Open Sans';
+  font-size: 1.2em;
   font-weight: 800;
-  text-align: center;
-  text-shadow: 0 1px 9px rgba(0, 0, 0, 0.8);
-  margin: auto;
+  /* text-align: center; */
+  /* text-shadow: 0 1px 9px rgba(0, 0, 0, 0.8); */
+  /* margin: auto; */
   margin-top: 0;
-  padding-top: 7vh;
+  /* padding-top: 7vh; */
 }
 
 .blog-card {
