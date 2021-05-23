@@ -6,7 +6,7 @@ from django.views.generic.base import View
 
 class HomeView(View):
     def get(self, *args, **kwargs):
-        return render(self.request, "base.html")
+        return render(self.request, "home.html")
 
 
 class HistoryView(View):

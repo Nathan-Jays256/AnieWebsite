@@ -1,0 +1,636 @@
+{% extends 'base.html' %}
+{% load static %}
+    {% block content%}
+<!-- Conent Body -->
+        <div class="site-content">
+                <!-- slider_area_start -->
+                <div class="slider_area">
+                    <div class="slider_active owl-carousel">
+
+                        <div class="single_slider  d-flex align-items-center overlay">
+                            <div class="hero-container" style="background-image: url({% static './media/anie/bg.jpeg' %});">
+                                <div class="overlay"></div>
+                                <a href="#content" class="hero-next js-slowscroll">
+                                    <i class="fa fa-chevron-down chev"></i>
+                                </a>
+
+                                <div class="hero-content">
+                                    <h1 class="hero-heading text-uppercase">
+                                        Promoting internationalization<br> of Education
+                                        In Africa
+                                    </h1>
+                                    <p class="p-sub">The network aims to be the leading organization in enhancing the understanding and development of the international dimension of higher education in Africa</p>
+
+                                </div> <!-- hero-content -->
+
+                            </div>
+                        </div>
+                        <div class="single_slider  d-flex align-items-center overlay">
+                            <div class="hero-container" style="background-image: url({% static './media/anie/bg2.png' %});">
+                                <div class="overlay"></div>
+                                <a href="#content" class="hero-next js-slowscroll">
+                                    <i class="fa fa-chevron-down chev"></i>
+                                </a>
+
+                                <div class="hero-content">
+                                    <h1 class="hero-heading text-uppercase">
+                                        Promoting internationalization<br> of Education
+                                        In Africa
+                                    </h1>
+                                </div> <!-- hero-content -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- slider_area_end -->
+                <div class="container">
+                    <!-- Start Simple Summary Area -->
+                    <!--<section class="info-area section-gap-top pb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-10 col-md-6 col-sm-12 margin-auto info-area-right">
+                     <h6 class="text-left color-primary text-uppercase">Who we are</h6>
+                    <p>The African Network for Internationalization of Education (ANIE) is an independent, non-profit making, non-governmental African network committed to the advancement of high quality research, capacity building and advocacy on internationalization of higher education with prime focus on Africa. <br /><br />ANIE is a membership based association serving its members, their institutions and organizations, and others engaged understanding internationalization. The network aims to be the leading organization in enhancing the understanding and development of the international dimension of higher education in Africa by expanding both knowledge and building, strengthening and sustaining a cohort of competent professionals in this field. <br />ANIE is an autonomous institution whose secretariat has been set up at <a target="_blank" href="https://www.mu.ac.ke/">Moi University</a>, Eldoret, Kenya.</p>
+                    <br>
+                </div>
+
+            </div>
+        </div>
+    </section>-->
+
+                    <div class="site-content__container">
+
+                        <div class="col__primary">
+
+                            <div class="blog__body">
+
+                                <div class="site-content-body pt-5">
+
+                                    <!-- Start Navy BG feature Area -->
+                                    <div class="featured-cards bg-white-no pb-5" id="content">
+
+                                        <div class="container">
+                                            <h3 class="text-left color-primary text-uppercase">Who we are</h3>
+                                        </div>
+                                        <div class="featured-cards-container fcards">
+
+
+
+
+                                            <div class="featured-cards-item bg-white-no">
+
+                                                <a class="featured-cards-item-link bgimage lazy" href="ourhistory.html" data-src="{% static 'media/Anie/logo/logo.png' %}" style="background-size: cover; background-position: center;">
+                                                    <div class="featured-cards-item-content">
+                                                        <h2 class="featured-cards-item-heading">Our History</h2>
+                                                        <p class="featured-cards-item-description">ANIE is a Non Profit African Organisation which is meant to improve the African Education System.</p>
+                                                    </div>
+                                                </a>
+                                                <a class="featured-cards-item-link bgimage lazy" href="policies.html" data-src="{% static 'media/anie/blog/p.png' %}" style="background-size: contain; background-position: center;">
+                                                    <div class="featured-cards-item-content">
+                                                        <h2 class="featured-cards-item-heading">Our Policies</h2>
+                                                        <p class="featured-cards-item-description">The Governing policies, regulations, guidelines and standard followed in the different education sectors in different countries </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+
+
+
+
+                                            <div class="featured-cards-item">
+                                                <a class="featured-cards-item-link bgimage lazy " href="documents.html" data-src="{% static 'media/anie/blog/documents.jpg' %}" style="background-size: contain; background-position: center;">
+                                                    <div class="featured-cards-item-content">
+                                                        <h2 class="featured-cards-item-heading">Documents </h2>
+                                                        <p class="featured-cards-item-description">These are the importannt documents for a better Education in Africa accessible to all people of all sorts.</p>
+                                                    </div>
+                                                </a>
+
+                                                <a class="featured-cards-item-link bgimage lazy" href="#" data-src="{% static 'media/anie/blog/pub.png' %}" style="background-size: contain; background-position: center;">
+                                                    <div class="featured-cards-item-content">
+                                                        <h2 class="featured-cards-item-heading">Publications</h2>
+                                                        <p class="featured-cards-item-description">Anie's monthly / yearly publication documents to help the public understand Anie in more broader picture.</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+
+
+
+
+                                            <div class="featured-cards-item">
+                                                <a class="featured-cards-item-link bgimage lazy" href="vision.html" data-src="{% static 'media/anie/blog/vision.png' %}" style="background-size: contain; background-position: center;">
+                                                    <div class="featured-cards-item-content">
+                                                        <h2 class="featured-cards-item-heading"><span class="color-primary">Our </span>Vision</h2>
+                                                        <p class="featured-cards-item-description">To develop and strengthen capacity for research, advocacy and professional development in the</p>
+                                                    </div>
+                                                </a>
+
+                                                <a class="featured-cards-item-link bgimage lazy" href="activities.html" data-src="{% static 'media/anie/blog/acts.jpg' %}" style="background-size: contain; background-position: center;">
+                                                    <div class="featured-cards-item-content">
+                                                        <h2 class="featured-cards-item-heading">What we do</h2>
+                                                        <p class="featured-cards-item-description">Anie activities are a series of the different important things in detail that are conducted at ANIE.</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+
+
+
+
+                                        </div>
+
+                                    </div> <!-- /featured-cards -->
+
+
+
+
+
+                                </div> <!-- /site-content-body -->
+
+                            </div> <!-- /blog__body -->
+
+                        </div> <!-- /col__primary -->
+
+                        <div class="col__secondary">
+                            <h2 class="text-left color-primary text-uppercase">Latest News</h2>
+
+                            <div class="newscontainer">
+
+                                <ul>
+                                    <li style="padding: 12px;">
+                                        <a href="g/indexa33b.html?gh_jid=2611282" class="job-listing-item-link">
+                                            <h3 class="job-listing-item-heading text-left font-weight-bold text-color">Jobs at URA</h3>
+                                            <p class="job-listing-item-description text-left">We are looking for an expert in Monitoring..</p>
+                                            <p class="font-weight-bold job-listing-item-description float-right">15, May 21 </p>
+                                            <p class="font-weight-bold job-listing-item-description float-left">Published on</p>
+
+                                        </a>
+                                    </li>
+                                    <li style="padding: 12px;">
+                                        <a href="g/indexa33b.html?gh_jid=2611282" class="job-listing-item-link">
+                                            <h3 class="job-listing-item-heading text-left font-weight-bold ">Highway Robbery at Entebbe road</h3>
+                                            <p class="job-listing-item-description text-left">We are looking for an expert in Monitoring..</p>
+                                            <p class="font-weight-bold job-listing-item-description float-right">15, May 21 </p>
+                                            <p class="font-weight-bold job-listing-item-description float-left">Published on</p>
+
+                                        </a>
+                                    </li>
+                                    <li style="padding: 12px;">
+                                        <a href="g/indexa33b.html?gh_jid=2611282" class="job-listing-item-link">
+                                            <h3 class="job-listing-item-heading text-left font-weight-bold ">Sweden Sponsorship for EastAfricans</h3>
+                                            <p class="job-listing-item-description text-left">We are looking for an expert in Monitoring..</p>
+                                            <p class="font-weight-bold job-listing-item-description float-right">15, May 21 </p>
+                                            <p class="font-weight-bold job-listing-item-description float-left">Published on</p>
+
+                                        </a>
+                                    </li>
+                                    <li style="padding: 12px;">
+                                        <a href="g/indexa33b.html?gh_jid=2611282" class="job-listing-item-link">
+                                            <h3 class="job-listing-item-heading text-left font-weight-bold ">Uganda's president elect swearing.</h3>
+                                            <p class="job-listing-item-description text-left">We are looking for an expert in Monitoring..</p>
+                                            <p class="font-weight-bold job-listing-item-description float-right">15, May 21 </p>
+                                            <p class="font-weight-bold job-listing-item-description float-left">Published on</p>
+
+                                        </a>
+                                    </li>
+                                    <li style="padding: 12px;">
+                                        <a href="g/indexa33b.html?gh_jid=2611282" class="job-listing-item-link">
+                                            <h3 class="job-listing-item-heading text-left font-weight-bold ">Agroforestry&nbsp;&nbsp;Lead</h3>
+                                            <p class="job-listing-item-description text-left">We are looking for an expert in Monitoring..</p>
+                                            <p class="font-weight-bold job-listing-item-description float-right">15, May 21 </p>
+                                            <p class="font-weight-bold job-listing-item-description float-left">Published on</p>
+
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+
+
+                        </div> <!-- /col__secondary -->
+
+                    </div> <!-- /row -->
+
+                </div> <!-- /container -->
+
+
+
+                <!--<div class="hero">
+
+
+                <div class="hero-container" style="background-image: url(./media/anie/bg.jpeg);">
+                    <div class="overlay"></div>
+                    <a href="#content" class="hero-next js-slowscroll">
+                        <i class="fa fa-chevron-down chev"></i>
+                    </a>
+
+                    <div class="hero-content">
+                        <h1 class="hero-heading text-uppercase">
+                            Promoting internationalization<br> of Education
+                            In Africa
+                        </h1>
+                    </div>
+
+                </div>
+            </div> /hero-container -->
+
+
+
+
+
+
+
+                <div class="cta">
+
+                    <div class="cta-container">
+
+                        <h2 class="cta-heading">Register and become a member with us</h2>
+
+                        <div class="cta-text">
+                            <div class="rich-text">
+                                <p>Are you willing to become a member and join us in fullfilling our mission and vission to East Africa and to the whole world<br /></p>
+                            </div>
+                        </div>
+
+                        <!--  -->
+
+
+                        <a class="btn-transparent cta-btn" href="registration.html">Read More</a>
+
+
+                    </div> <!-- /cta-container -->
+
+                </div> <!-- /cta -->
+
+                <div class="featured-cards bg-white-no" id="content">
+                    <div class="text-banner ">
+                        <header class="text-banner-container">
+                            <div class="text-banner-content">
+                                <h5 class="text-center color-primary text-uppercase">Upcoming Conferences</h5>
+                                <div class="text-banner-introduction introductions">Anie conducts conferences in different countries on different issues providing solution to students and organisation bodies to help improve the Education system of Africa.</div>
+                            </div> <!-- text-banner__content -->
+                        </header> <!-- text-banner__container -->
+                    </div>
+
+
+                    <div class="featured-cards-container">
+
+
+
+
+                        <!-- conferences-->
+                        <div class="featured-cards-item featured-cards-sm">
+                            <div class="fieldwrapper">
+                                <a href="#"><img class="img-fluid smaboutimg" src="{% static 'media/anie/bg.jpeg' %}" alt="">
+                                    <div class="bg-white">
+                                        <p class="subtitle float-left" style="padding-right: 12px;">23rd March 21<br>
+                                        </p>
+                                        <p class="subtitle"> <i class="fa fa-map-marker" aria-hidden="true"></i> Congo Brazaville
+                                        </p>
+                                        <p class="eventtitle">Prof E. Abenga Covid 19 &amp; Internationalization of Higher...</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="featured-cards-item featured-cards-sm">
+                            <div class="fieldwrapper">
+                                <a href="#"><img class="img-fluid smaboutimg" src="{% static 'media/anie/blog/con1.jpg' %}" alt="">
+                                    <div class="bg-white">
+                                        <p class="subtitle float-left" style="padding-right: 12px;">23rd March 21<br>
+                                        </p>
+                                        <p class="subtitle"> <i class="fa fa-map-marker" aria-hidden="true"></i> Congo Brazaville
+                                        </p>
+                                        <p class="eventtitle">
+                                            Prof. Pai Obanya ANIE-IEASA Webinar Presentation</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="featured-cards-item featured-cards-sm">
+                            <div class="fieldwrapper">
+                                <a href="#"><img class="img-fluid smaboutimg" src="{% static 'media/anie/blog/conf2.jpg' %}" alt="">
+                                    <div class="bg-white">
+                                        <p class="subtitle float-left" style="padding-right: 12px;">23rd March 21<br>
+                                        </p>
+                                        <p class="subtitle"> <i class="fa fa-map-marker" aria-hidden="true"></i> Congo Brazaville
+                                        </p>
+                                        <p class="eventtitle">Prof. Goski Alabi COVID 19 &amp; internationalization of Higher</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="featured-cards-item featured-cards-sm">
+                            <div class="fieldwrapper">
+                                <a href="#"><img class="img-fluid smaboutimg" src="{% static 'media/anie/blog/conf3.jpg' %}" alt="">
+                                    <div class="bg-white">
+                                        <p class="subtitle float-left" style="padding-right: 12px;">23rd March 21<br>
+                                        </p>
+                                        <p class="subtitle"> <i class="fa fa-map-marker" aria-hidden="true"></i> Congo Brazaville
+                                        </p>
+                                        <p class="eventtitle">ANIE Webinar <br>Presentation</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div data-brackets-id="648" class="container pb-4">
+
+                        <div class="view-footer v-foot">
+                            <div class="fieldwrapper">
+                                <div class="viewmore"><a href="conferences.html"> View More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End conferences-->
+                    <!--  Publications Cards -->
+                    <section data-brackets-id="647" class=" pad-top">
+                        <div data-brackets-id="648" class="container pb-4">
+                            <div class="text-banner ">
+                                <header class="text-banner-container">
+                                    <div class="text-banner-content">
+                                        <h5 class="text-center color-primary text-uppercase ">Latest Publications</h5>
+
+                                    </div> <!-- text-banner__content -->
+                                </header> <!-- text-banner__container -->
+                            </div>
+                            <div data-brackets-id="649" class="row">
+                                <div data-brackets-id="650" class="col-lg-3 col-md-6 col-sm-12 pad-bottom fieldwrapper">
+                                    <img data-brackets-id="651" class="center pic-pub" src="{% static 'media/anie/publications/adea.jpg' %}" width="auto" margin="auto" height="325">
+                                    <h6 data-brackets-id="652" style="text-align: center; padding-top: 15px;">Hot feet and Social Change of African dance and Diaspora Comunities</h6>
+                                </div>
+                                <div data-brackets-id="653" class="col-lg-3 col-md-6 col-sm-12 pad-bottom fieldwrapper">
+                                    <img data-brackets-id="654" class="center pic-pub" src="{% static 'media/anie/publications/COVID-19%20Strategic%20Response%20Plan%20in%20the%20WHO%20African%20Region.png' %}" width="auto" margin="auto" height="325">
+                                    <h6 data-brackets-id="655" style="text-align: center; padding-top: 15px;">COVID-19 Strategic Response Plan in the WHO African Region</h6>
+                                </div>
+                                <div data-brackets-id="656" class="col-lg-3 col-md-6 col-sm-12 pad-bottom fieldwrapper">
+                                    <img data-brackets-id="657" class="center pic-pub" src="{% static 'media/anie/publications/publication.jpg' %}" width="auto" margin="auto" height="325">
+                                    <h6 data-brackets-id="658" style="text-align: center; padding-top: 15px;">African Adult Education</h6>
+                                </div>
+
+                                <div data-brackets-id="659" class="col-lg-3 col-md-6 col-sm-12 pad-bottom fieldwrapper">
+                                    <img data-brackets-id="660" class="center pic-pub" src="{% static 'media/anie/publications/Technical%20guidance%20for%20contact%20%20tracing%20COVID-19.jpg' %}" width="auto" margin="auto" height="325">
+                                    <h6 data-brackets-id="661" style="text-align: center; padding-top: 15px;">impact of covid on Education</h6>
+
+                                </div>
+                                <div class="view-footer">
+                                    <div class="fieldwrapper">
+                                        <div class="viewmore"><a href="publications.html"> View More</a></div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End Publications Cards -->
+                    <!-- Newsletter Area -->
+                    <section data-brackets-id="647" class="pb-4 pt-1">
+                        <div data-brackets-id="648" class="container pb-4">
+                            <div class="text-banner ">
+                                <header class="text-banner-container">
+                                    <div class="text-banner-content">
+                                        <h5 class="text-center color-primary text-uppercase ">Latest Newsletter</h5>
+
+                                    </div> <!-- text-banner__content -->
+                                </header> <!-- text-banner__container -->
+                            </div>
+                            <div data-brackets-id="649" class="row">
+                                <div data-brackets-id="650" class="col-lg-6 col-md-12 col-sm-12 pad-bottom fieldwrapper">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-5 col-sm-12"><img data-brackets-id="651" class="center pic-news" src="{% static 'media/anie/publications/hot_feet_book_cover.jpg' %}" width="auto" margin="auto" height="325"></div>
+                                        <div class="col-lg-7 col-md-7 col-sm-12">
+                                            <h6 class="eventtitle text-uppercase" data-brackets-id="652">Hot feet and Social Change of African dance and Diaspora Comunities</h6>
+                                            <p class="p-sm">Hot feet and Social Change of African dance and Diaspora Comunities African dance and Diaspora Anie conducts conferences in different countries on different issues providing solution to students and organisation bodies to help improve the Education system of Africa. </p>
+                                            <p class="p-sm font-weight-bold color-primary">Posted on 12, Jan 2021 </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div data-brackets-id="650" class="col-lg-6 col-md-12 col-sm-12 pad-bottom fieldwrapper">
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-5 col-sm-12"><img data-brackets-id="651" class="center pic-news" src="{% static 'media/anie/publications/impact%20of%20covid%20on%20Education.png' %}" width="auto" margin="auto" height="325"></div>
+                                        <div class="col-lg-7 col-md-7 col-sm-12">
+                                            <h6 class="eventtitle text-uppercase" data-brackets-id="652">Hot feet and Social Change of African dance and Diaspora Comunities</h6>
+                                            <p class="p-sm">Hot feet and Social Change of African dance and Diaspora Comunities African dance and Diaspora Anie conducts conferences in cbcvbvc different countries on different dfgdg issues providing solution to students and organisation bodies to help improve the Education system of Africa. </p>
+                                            <p class="p-sm font-weight-bold color-primary">Posted on 25, Feb 2021 </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="view-footer">
+                                    <div class="fieldwrapper">
+                                        <div class="viewmore"><a href="newsletter.html"> View More</a></div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Blog Area -->
+                    <div class="content-body">
+                        <div class="">
+                            <header class="main-header">
+                                <h2 class="tit-main color-primary heading-section"><span class="color-primary">LATEST</span> BLOGS</h2>
+                            </header>
+                            <section data-brackets-id="647" class="pt-2">
+                                <div data-brackets-id="648" class="container">
+                                    <div data-brackets-id="649" class="row">
+
+                                        <div data-brackets-id="650" class="col-lg-4 col-md-12 col-sm-12 pad-bottom">
+                                            <div class="blog-card">
+                                                <img class="blog-img" src="{% static './media/original_images/Header_Uganda_KEN_7799.original.jpg' %}" />
+                                                <div class="text-overlay">
+                                                    <h5>Essential Atom Packages</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales posuere felis non efficitur.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div data-brackets-id="650" class="col-lg-4 col-md-12 col-sm-12 pad-bottom">
+                                            <div class="blog-card">
+                                                <img class="blog-img" src="{% static './media/original_images/Header_Uganda_KEN_7799.original.jpg' %}" />
+                                                <div class="text-overlay">
+                                                    <h5>Essential Atom Packages</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales posuere felis non efficitur.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div data-brackets-id="650" class="col-lg-4 col-md-12 col-sm-12 pad-bottom">
+                                            <div class="blog-card">
+                                                <img class="blog-img" src="{% static './media/original_images/Header_Uganda_KEN_7799.original.jpg' %}" />
+                                                <div class="text-overlay">
+                                                    <h5>Essential Atom Packages</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales posuere felis non efficitur.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class=" letter-footer view-footer">
+                                                <div class="fieldwrapper">
+                                                    <div class="viewmore"><a href="newsletter.html"> View More</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!--<div class="stories-container">
+
+
+
+
+                                <div class="Cont">
+                                    <a href="blog/seed-soap-delivering-health-response-covid-19/index.html" class="link">
+
+                                        <div class="blog-card">
+		<img class="blog-img" src="./media/original_images/Header_Uganda_KEN_7799.original.jpg" />
+		<div class="text-overlay">
+			<h2>Essential Atom Packages</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales posuere felis non efficitur. Mauris mollis elit urna, id tempus... &nbsp;&nbsp;<a href="#" class="read-more">Read More</a></p>
+		</div>
+	</div>
+
+                                        <div class="content">
+
+                                            <p class="Cont-tags">June 19, 2019</p>
+                                            <h2 class="heading">Centre for Research on Evaluation, Science and Technology</h2>
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+
+
+
+
+                                <div class="Cont">
+                                    <a href="blog/putting-farmers-first-during-global-health-crisis/index.html" class="link">
+
+                                        <div class="pic-container">
+                                            <div class="action">
+                                                <span class="btn btn-secondary">Learn more</span>
+                                            </div>
+
+                                            <img src="media/anie/blog/course2.jpg" width="924" height="700" alt="Input delivery truck in Rwanda" class="Cont-image lazy">
+                                        </div>
+
+                                        <div class="content">
+                                            <p class="Cont-tags">June 19, 2019</p>
+                                            <h2 class="heading">NEWTON INTERNATIONAL FELLOWSHIPS</h2>
+
+                                        </div>
+                                    </a>
+
+                                </div>
+
+
+
+
+
+                                <div class="Cont">
+                                    <a href="blog/using-technology-support-farming-face-covid-19/index.html" class="link">
+
+                                        <div class="pic-container">
+                                            <div class="action">
+                                                <span class="btn btn-secondary">Learn more</span>
+                                            </div>
+
+                                            <img src="media/anie/blog/course3.jpg" width="924" height="700" alt="Input delivery truck in Rwanda" class="Cont-image lazy">
+                                        </div>
+
+                                        <div class="content">
+                                            <h2 class="heading">Using Technology to Support Farming in the Face of COVID-19</h2>
+
+                                        </div>
+                                    </a>
+
+                                </div>
+
+
+
+
+                                <div class="Cont">
+                                    <a href="blog/covid-19-update-our-millionth-farmer-group/index.html" class="link">
+
+                                        <div class="pic-container">
+                                            <div class="action">
+                                                <span class="btn btn-secondary">Learn more</span>
+                                            </div>
+
+                                            <img src="media/anie/blog/course2.jpg" width="924" height="700" alt="Input delivery truck in Rwanda" class="Cont-image lazy">
+                                        </div>
+                                        <div class="content">
+                                            <h2 class="heading">COVID-19 Update on our Millionth Farmer Group</h2>
+                                        </div>
+                                    </a>
+
+                                </div>-->
+
+                        </div> <!-- /stories-container -->
+
+                    </div> <!-- /stories -->
+
+                </div>
+                <!-- /content-blogs -->
+
+
+                <!-- Videos Gallery Area -->
+                <section class="section-gap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md- col-sm-12 col-12 posts-list">
+                                <h2 class="block-title">Videos</h2>
+                                <div class="row">
+
+                                    <div class="col-md-4 col-sm-12">
+                                        <div class="fieldwrapper">
+                                            <iframe width="400" height="215" src="https://www.youtube.com/embed/JNKzY5J2C58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="div-text">
+                                                <a href="#" class="link">Internationalisation in African higher education - James Jowi</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-12">
+                                        <div class="fieldwrapper">
+                                            <iframe width="400" height="215" src="http://anienetwork.org/downloads/webinar.mp4#t=80" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                            </iframe>
+                                            <div class="div-text">
+                                                <a href="#" class="link">Education with prime focus on Africa.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                        <div class="fieldwrapper">
+                                            <iframe width="400" height="215" src="https://www.youtube.com/embed/NNbwBZE4o4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                            </iframe>
+                                            <div class="div-text">
+                                                <a href="#" class="link">Education with prime focus on Africa.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            </div>
+            <!-- /Content Body -->
+{% endblock %}

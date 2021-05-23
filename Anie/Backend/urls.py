@@ -8,7 +8,7 @@ from Backend.views import HomeView, PartnershipView, BoardMemberView, CommitteeV
 app_name = 'Anie'
 urlpatterns = [
     path('', HomeView.as_view(), name='Home'),
-    path('history/', HistoryView.as_view(), name='History'),
+    path('ourhistory/', HistoryView.as_view(), name='History'),
     path('boardmembers/', BoardMemberView.as_view(), name='Board'),
     path('committee/', CommitteeView.as_view(), name='Committee'),
     path('secretariat/', SecretariatView.as_view(), name='Secretariat'),
