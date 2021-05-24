@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+    {% block content%}
+<!-- Conent Body -->
+            <div class="site-content">
+                <div class="site-content-body">
+                    <section data-brackets-id="647" class="pb-4 pt-2">
+                    <div data-brackets-id="648" class="container pb-4">
+                        <div class="text-banner ">
+                            <header class="text-banner-container">
+                                <div class="text-banner-content">
+                                    <h5 class="text-center color-primary text-uppercase ">Latest Newsletter</h5>
+
+                                </div> <!-- text-banner__content -->
+                            </header> <!-- text-banner__container -->
+                        </div>
+                        <div data-brackets-id="649" class="row">
+                            {% for page in pages %}
+                            <div data-brackets-id="650" class="col-lg-4 col-md-6 col-sm-12 pad-bottom fieldwrapper">
+                                <a href=""><div class="row">
+                                    <div class="col-lg-5 col-md-6 col-sm-12"><img data-brackets-id="651" class="center pic-news" src="{{page.picture.url}}" width="auto" margin="auto" height="325"></div>
+                                    <div class="col-lg-7 col-md-6 col-sm-12">
+                                        <h6 class="eventtitle text-uppercase" data-brackets-id="652">{{page.Name}}</h6>
+                                        <p class="p-sm">{{page.Description|truncatewords:23}}</p>
+                                        <p class="p-sm font-weight-bold color-primary">Posted on {{page.DatePublished}} </p>
+                                    </div>
+                                </div></a>
+
+
+                                </div>{% endfor %}
+                            
+
+                        </div>
+                    </div>
+                </section>
+                </div>
+            </div>
+            <!-- /Content Body -->
+    {% endblock %}

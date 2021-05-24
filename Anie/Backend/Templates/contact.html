@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+    {% block content%}
+<div class="site-content">
+
+
+
+<div class="contact-form-page site-content-body site-content-body-fill">
+
+    <div class="text-banner text-banner--left">
+
+        <div class="text-banner-container">
+            <div class="text-banner-content">
+                <h1 class="text-banner-heading">Contact Us</h1>
+                <div class="text-banner-introduction">
+                    Need help? Have a question? Send us a message.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="main-body">
+        <div class="container">
+            <form action="https://oneacrefund.org/contact-us/" method="post">
+                <div class="form__container">
+                    <input type='hidden' name='csrfmiddlewaretoken' value='pa1uws7B2wmlEyWvQeqy99ElttH1XB2dyayoLNmBGvty2c2x8te9UVamE6JKPNkz' />
+
+
+
+                    <p><input type="text" name="name" placeholder="Your Name" id="id_name" /></p>
+                    <p><input type="email" name="email" placeholder="Your Email*" required id="id_email" /></p>
+                    <p><input type="text" name="subject" placeholder="Subject" id="id_subject" /></p>
+                    <p><textarea name="message" cols="40" rows="10" placeholder="Your Message*" required id="id_message">
+</textarea></p>
+                    <p><script src="../../www.google.com/recaptcha/api.js"></script>
+<script type="text/javascript">
+    // Submit function to be called, after reCAPTCHA was successful.
+    var onSubmit_3b52393db6d84d8f8aa9b77843e37dd0 = function(token) {
+        console.log("reCAPTCHA validated for 'data-widget-uuid=\"3b52393db6d84d8f8aa9b77843e37dd0\"'")
+    };
+</script>
+
+<div class="g-recaptcha"
+     data-sitekey="6Lc7ZRkUAAAAAHpDnrY71GZ0POxzipTCQRGCWM6J" required id="id_captcha" data-widget-uuid="3b52393db6d84d8f8aa9b77843e37dd0" data-callback="onSubmit_3b52393db6d84d8f8aa9b77843e37dd0" data-size="normal"
+>
+                    </div>
+
+                    <div class="form__item__container form__item__container--action">
+                        <input class="form__item__submit btn btn--form" type="submit" value="Send" />
+                    </div>
+                </div> <!-- /form--container -->
+            </form>
+        </div>
+    </section>
+
+</div>
+
+
+            </div>
+    {% endblock %}

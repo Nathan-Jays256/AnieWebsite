@@ -1,7 +1,9 @@
 from django.shortcuts import render
 
 # Create your views here.
-from django.views.generic.base import View
+from django.views.generic import View, ListView
+
+from Backend.models import Newsletter
 
 
 class HomeView(View):
@@ -94,9 +96,22 @@ class DocumentsView(View):
         return render(self.request, "documents.html")
 
 
-class NewsletterView(View):
+class GoalsView(View):
     def get(self, *args, **kwargs):
-        return render(self.request, "newsletter.html")
+        return render(self.request, "goals.html")
+
+
+class TrainingView(View):
+    def get(self, *args, **kwargs):
+        return render(self.request, "training.html")
+
+
+class NewsletterView(ListView):
+    model = Newsletter
+    paginate_by = 6
+    template_name = "newsletter.html"
+    context_object_name = 'pages'
+    query = ""
 
 
 class ContactView(View):

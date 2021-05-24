@@ -221,12 +221,12 @@ class Newsletter(models.Model):
     picture = models.ImageField()
     Name = models.CharField(max_length=55)
     Description = models.TextField()
-    DatePublished = models.DateTimeField(auto_now_add=True)
+    DatePublished = models.DateField()
     Slug = models.SlugField()
     File = models.FileField()
 
     def __str__(self):
-        return self.Name, self.DateTimeField
+        return self.Name
 
 
 class ContactUs(models.Model):

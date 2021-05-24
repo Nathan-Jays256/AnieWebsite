@@ -3,7 +3,7 @@ from django.urls import path
 from Backend.views import HomeView, PartnershipView, BoardMemberView, CommitteeView, \
     SecretariatView, HistoryView, ConferenceView, ResearchView, CapacityView, AdvocacyView, \
     PoliciesView, ConsultancyView, MembershipView, MembersView, PublicationsView, ScholarshipView, \
-    CallsView, DocumentsView, NewsletterView, ContactView, RegistrationView
+    CallsView, DocumentsView, NewsletterView, ContactView, RegistrationView, TrainingView, GoalsView
 
 app_name = 'Anie'
 urlpatterns = [
@@ -27,6 +27,8 @@ urlpatterns = [
     path('key-documents/', DocumentsView.as_view(), name='Documents'),
     path('newsletter/', NewsletterView.as_view(), name='Newsletter'),
     path('contact/', ContactView.as_view(), name='Contact'),
+    path('trainings/', TrainingView.as_view(), name='Training'),
+    path('goals/', GoalsView.as_view(), name='Goals'),
     path('registration-form/', RegistrationView.as_view(), name='Register'),
 
 ]
